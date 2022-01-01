@@ -8,7 +8,7 @@ export const Todos = (props) => {
     }
     return (
         <div className="container" style={myStyle}>
-            <h3 className="my-3">All Tasks</h3>
+            <h3 className="my-3">All Tasks:</h3>
             {props.todos.length===0? "No To-do Lists!":
             props.todos.map((todo)=>{
                return( 
